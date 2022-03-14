@@ -1,0 +1,10 @@
+
+<span class="view">
+    <span *ngIf="deal" class="container page">
+        <app-deal-card [deal]="deal"></app-deal-card>
+        <p class="container centered">CODE PROMO : {{deal.promo_code}}</p>
+        <p class="container centered">{{deal.price_old}} > {{deal.price_new}} ({{discount() | percent}} de remises)</p>
+        <p class="container description">{{deal.description}}</p>
+    </span>
+</span>
+

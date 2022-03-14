@@ -1,0 +1,18 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.centered{
+    align-self: center;
+    text-align: center;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.description{
+    align-self: center;
+    min-height: 200px;
+    padding: 5px;
+}

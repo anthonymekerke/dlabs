@@ -1,0 +1,16 @@
+<span *ngIf="deal" class="card">
+    <img src="{{deal.img_url}}" alt="{{deal.img_url}}">
+
+    <span class="info">
+        <h2>{{deal.temperature}}</h2>
+        <h3><a routerLink="/dlabs/{{deal.id}}">{{deal.title}}</a></h3>
+        <span>{{deal.creator}} | {{deal.shop_name}}</span>
+    </span>
+
+    <span class="date">
+        {{deal.date_post | date}}
+        <a href={{deal.shop_link}}><button>Voir sur le Site</button></a>
+    </span>
+</span>
+
+  
