@@ -21,13 +21,6 @@ L'objectif du projet était de développer une Application Web (API et page web)
 
 ### Dépendances
 
-| Environnement Technique | |
-| ---: | :--- |
-| **SGBD** | MySQL |
-| **Langage** | Java, JavaScript, TypeScript |
-| **Technologies/Logiciels** | Spring, Vue.js, Angular, Git |
-| **Normes & architectures** | HTTP, API, N-Tiers, Rest, Singleton |
-
 <table>
   <thead>
     <tr><th colspan="2">Environnement Technique</th></tr>
