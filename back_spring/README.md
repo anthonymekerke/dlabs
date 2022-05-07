@@ -11,7 +11,7 @@ L'API est déployée à l'adresse
 localhost:8080
 ```
 
-Format des données:
+**Format des données:**
 
 <table>
     <tr>
@@ -35,7 +35,7 @@ Format des données:
     </tr>
 </table>
 
-Endpoint:
+**Liste des Endpoints:**
 ```
 GET /deal/all
 ```
@@ -105,11 +105,20 @@ Envoie un nouveau **Deal** dans la base de donnée.
 
 ## Utilisation
 
-### Installation
+### Dépendances
 
-Installer Java (JVM > 8.0)
+[Java (JVM > 8.0)](https://www.java.com/fr/download/)
 
-Installer Maven
+[Maven](https://maven.apache.org/index.html)
+
+### Lancement/run
+
+```bash
+$ chmod +x mvnw
+$ ./mvnw clean spring-boot:run
+OR
+$ mvn clean spring-boot:run
+```
 
 ### À savoir
 
